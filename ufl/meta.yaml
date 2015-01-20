@@ -1,11 +1,9 @@
 package:
   name: ufl
-  version: "1.5.0"
+  version: "1.5.0+dev1"
 
 source:
-  fn: ufl-1.5.0.tar.gz
-  url: https://bitbucket.org/fenics-project/ufl/downloads/ufl-1.5.0.tar.gz
-  md5: 130d7829cf5a4bd5b52bf6d0955116fd
+  git_url: https://bitbucket.org/mapdes/ufl.git
 
 build:
   number: 1
@@ -40,7 +38,7 @@ test:
 about:
   home: http://www.fenicsproject.org
   license: The GNU Lesser General Public License, version 3.0
-  summary: 'Unified Form Language'
+  summary: 'Unified Form Language - MAPDES Fork'
 
 # See
 # http://docs.continuum.io/conda/build.html for
