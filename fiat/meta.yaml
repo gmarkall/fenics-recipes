@@ -1,11 +1,9 @@
 package:
   name: fiat
-  version: "1.5.0"
+  version: "1.5.0+"
 
 source:
-  fn: fiat-1.5.0.tar.gz
-  url: https://bitbucket.org/fenics-project/fiat/downloads/fiat-1.5.0.tar.gz
-  md5: da3fa4dd8177bb251e7f68ec9c7cf6c5
+  git_url: https://bitbucket.org/mapdes/fiat.git
 
 build:
   number: 1
